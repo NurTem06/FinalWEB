@@ -5,4 +5,5 @@ module.exports = mongoose.model("Movie", new mongoose.Schema({
   director: String,
   genres: [String],
   trailerUrl: String
+
 }, { timestamps: true }));
