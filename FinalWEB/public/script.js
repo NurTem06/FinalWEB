@@ -110,4 +110,5 @@ window.onload = () => {
     loadMovies();
     const u = JSON.parse(localStorage.getItem('user'));
     if(u) document.getElementById('welcomeText').innerText = `Привет, ${u.username}`;
+
 };
