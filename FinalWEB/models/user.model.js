@@ -9,4 +9,5 @@ module.exports = mongoose.model(
     role: { type: String, default: "user" },
     watched: [{ type: mongoose.Schema.Types.ObjectId, ref: "Movie" }] // Связь с фильмами
   })
+
 );
